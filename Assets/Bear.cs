@@ -39,10 +39,7 @@ public class Bear : MonoBehaviour
                 myrigibody.linearVelocity = Vector2.right * moveRight;
                 Check = Check + 5;
         }
-        else
-        {
-            myrigibody.linearVelocity = Vector2.right * 0;
-        }
+        
 
     }
     void Stop()
